@@ -41,10 +41,12 @@ ul {
 
 .contacts .link {
   color: rgba(255, 255, 255, 0.6);
-  background-color: #757575; /*временный цвет*/
+  /* background-color: #757575; временный цвет */
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  display: inline-block;
+  margin-top: 9px;
 }
 
 .developed .text {
@@ -209,9 +211,11 @@ ul {
   line-height: 1.14;
 }
 
-.contacts .subtitle {
-  background-color: #757575; /*временный цвет*/
+.connect .subtitle {
+  /* background-color: #757575; временный цвет */
   color: var(--primary-white-color);
+  display: inline-block;
+  margin-bottom: 56px;
 }
 
 .duties .subtitle {
@@ -276,6 +280,8 @@ ul {
 .team .text {
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .contacts .logo {
@@ -290,7 +296,7 @@ ul {
 
 .location.text {
   color: var(--primary-white-color);
-  background-color: #757575;
+  /* background-color: #757575; */
 }
 
 .container {
@@ -438,6 +444,7 @@ ul {
 
 .portfolio .features.container {
   /* background-color: tomato; */
+  text-align: left;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
