@@ -12,27 +12,27 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="navigation">
+    <header class="container">
+      <nav class="navigation flex-type">
         <a class="logo link" href="./index.html">
           <span class="logo-colored">Web</span> Studio</a
         >
         <!-- логотип -->
 
-        <ul class="site-nav">
+        <ul class="site-nav flex-type">
           <li>
-            <a class="link" href="./index.html">Студия</a>
+            <a class="link" href="./index.html"> Студия</a>
           </li>
           <li>
-            <a class="link" href="./portfolio.html"
-              ><span class="current-page">Портфолио</span></a
-            >
+            <a class="link" href="./portfolio.html">
+              <span class="current-page">Портфолио</span>
+            </a>
           </li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul class="site-auth">
+      <ul class="site-auth flex-type">
         <li>
           <a class="link" href="mailto:info@devstudio.com"
             ><span class="mail-color">info@devstudio.com</span>
@@ -46,142 +46,193 @@
     <main>
       <!-- скрытый зоголовок  -->
       <h1 class="visibility">Портфолио</h1>
-
-      <ul class="portfolio-buttons">
-        <li><button type="button" class="button">Все</button></li>
-        <li>
-          <button type="button" class="button">Веб-сайты</button>
-        </li>
-        <li><button type="button" class="button">Приложения</button></li>
-        <li><button type="button" class="button">Дизайн</button></li>
-        <li><button type="button" class="button">Маркетинг</button></li>
-      </ul>
-
-      <ul class="features">
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/techno.jpg" alt="карточки людей" />
-            <h2 class="subtitle">Технокряк</h2>
-            <p class="text">Веб-сайт</p>
-
-            <p class="description text">
-              Технокряк это современная площадка распространения коронавируса.
-              Компании используют эту платформу для цифрового шпионажа и атак на
-              защищённые сервера конкурентов.
-            </p>
-          </a>
-        </li>
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/basketball.jpg" alt="баскетболисты" />
-            <h2 class="subtitle">Постер New Orlean vs Golden Star</h2>
-            <p class="text">Дизайн</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/Seafood.jpg" alt="товарный знак" />
-            <h2 class="subtitle">Ресторан Seafood</h2>
-            <p class="text">Приложение</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/headphones.jpg" alt="наушники" />
-            <h2 class="subtitle">Проект Prime</h2>
-            <p class="text">Маркетинг</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/paperbox.jpg" alt="бумажные коробки" />
-            <h2 class="subtitle">Проект Boxes</h2>
-            <p class="text">Приложение</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/display.jpg" alt="Монитор" />
-            <h2 class="subtitle">Inspiration has no Borders</h2>
-            <p class="text">Веб-сайт</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/book.jpg" alt="Книга" />
-            <h2 class="subtitle">Издание Limited Edition</h2>
-            <p class="text">Дизайн</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/lable.jpg" alt="Бирка" />
-            <h2 class="subtitle">Проект LAB</h2>
-            <p class="text">Маркетинг</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-        <li>
-          <a class="link" href="">
-            <img src="./img/portfolio/laptop.jpg" alt="Ноутбук" />
-            <h2 class="subtitle">Growing Business</h2>
-            <p class="text">Приложение</p>
-            <p class="description text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </a>
-        </li>
-      </ul>
-    </main>
-
-    <footer>
-      <address class="contacts">
-        <span class="logo"> <span class="logo-colored"> Web</span> Studio</span>
-        <br />
-        <span class="location text">г. Киев, пр-т Леси Украинки, 26</span>
-        <br />
-        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <br />
-        <a class="link" href="tel:380961111111">+38 096 111 11 11</a>
-      </address>
-
-      <div>
-        <b class="subtitle">присоединяйтесь</b>
-        <ul>
+      <div class="portfolio">
+        <ul class="portfolio-buttons container">
+          <li><button type="button" class="portfolio-button">Все</button></li>
           <li>
-            <a href="" aria-label="Ссылка на Instagram"></a>
+            <button type="button" class="portfolio-button">Веб-сайты</button>
           </li>
           <li>
-            <a href="" aria-label="Ссылка на Twitter"></a>
+            <button type="button" class="portfolio-button">Приложения</button>
           </li>
           <li>
-            <a href="" aria-label="Ссылка на Facebook"></a>
+            <button type="button" class="portfolio-button">Дизайн</button>
           </li>
           <li>
-            <a href="" aria-label="Ссылка на LinkedIn"></a>
+            <button type="button" class="portfolio-button">Маркетинг</button>
           </li>
         </ul>
+
+        <ul class="features container">
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/techno.jpg" alt="карточки людей" />
+                <h2 class="subtitle">Технокряк</h2>
+                <p class="text">Веб-сайт</p>
+
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/basketball.jpg" alt="баскетболисты" />
+                <h2 class="subtitle">Постер New Orlean vs Golden Star</h2>
+                <p class="text">Дизайн</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/Seafood.jpg" alt="товарный знак" />
+                <h2 class="subtitle">Ресторан Seafood</h2>
+                <p class="text">Приложение</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/headphones.jpg" alt="наушники" />
+                <h2 class="subtitle">Проект Prime</h2>
+                <p class="text">Маркетинг</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./img/portfolio/paperbox.jpg"
+                  alt="бумажные коробки"
+                />
+                <h2 class="subtitle">Проект Boxes</h2>
+                <p class="text">Приложение</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/display.jpg" alt="Монитор" />
+                <h2 class="subtitle">Inspiration has no Borders</h2>
+                <p class="text">Веб-сайт</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/book.jpg" alt="Книга" />
+                <h2 class="subtitle">Издание Limited Edition</h2>
+                <p class="text">Дизайн</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/lable.jpg" alt="Бирка" />
+                <h2 class="subtitle">Проект LAB</h2>
+                <p class="text">Маркетинг</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+
+          <div class="portfolio-card">
+            <li>
+              <a class="link" href="">
+                <img src="./img/portfolio/laptop.jpg" alt="Ноутбук" />
+                <h2 class="subtitle">Growing Business</h2>
+                <p class="text">Приложение</p>
+                <p class="description text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi, magnam.
+                </p>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <address class="contacts">
+          <span class="logo">
+            <span class="logo-colored"> Web</span> Studio</span
+          >
+          <br />
+          <span class="location text">г. Киев, пр-т Леси Украинки, 26</span>
+          <br />
+          <a class="link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <br />
+          <a class="link" href="tel:380961111111">+38 096 111 11 11 </a>
+        </address>
+
+        <div class="contacts">
+          <b class="subtitle">присоединяйтесь</b>
+          <ul>
+            <li>
+              <a href="" aria-label="Ссылка на Instagram"></a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на Twitter"></a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на Facebook"></a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на LinkedIn"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="developed">
+        <p class="text">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
   </body>
