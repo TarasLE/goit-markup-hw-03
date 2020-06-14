@@ -66,9 +66,9 @@ ul {
   color: var(--text-accent-color);
 }
 
-.mail-color {
+/* .mail-color {
   color: var(--text-accent-color);
-}
+} */
 
 .logo {
   color: #000000;
@@ -146,7 +146,7 @@ ul {
 
 .hero-title {
   color: var(--primary-white-color);
-  background-color: #757575; /*временный цвет*/
+  /* background-color: #757575; временный цвет */
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -155,6 +155,7 @@ ul {
   letter-spacing: 0.06em;
 
   /* border: 2px solid tomato; */
+  padding-top: 200px;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -183,7 +184,7 @@ ul {
   padding: 10px 32px;
   border-radius: 4px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 200px;
 }
 
 .hero-button:hover,
@@ -338,6 +339,7 @@ ul {
 .hero-container {
   display: block;
   text-align: center;
+  background-color: #757575; /*временный цвет*/
   /* border: 2px solid green; */
 }
 
