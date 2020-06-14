@@ -230,11 +230,15 @@ ul {
 }
 
 .duties .title,
-.team .title,
 .clients .title {
   /* border: 2px solid tomato; */
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.team .title {
+  display: inline-block;
+  margin-top: 94px;
 }
 
 .duties-card {
@@ -345,7 +349,6 @@ ul {
 
 .duties,
 .advantage,
-.team,
 .clients,
 .portfolio {
   display: block;
@@ -354,6 +357,18 @@ ul {
   margin-top: 94px;
 }
 
+.team {
+  /* border: 2px solid green; */
+  display: block;
+  text-align: center;
+  width: 1170px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  background-color: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+}
 .page-footer {
   display: block;
   text-align: center;
@@ -364,6 +379,8 @@ ul {
 
 .team .container {
   margin-bottom: 94px;
+  padding: 0;
+  background-color: #f5f4fa;
 }
 
 .page-footer .container {
