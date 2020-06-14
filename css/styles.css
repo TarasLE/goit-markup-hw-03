@@ -361,12 +361,9 @@ ul {
   /* border: 2px solid green; */
   display: block;
   text-align: center;
-  /* width: 1170px; */
-  /* padding-left: 15px;
-  padding-right: 15px; */
+
   background-color: #f5f4fa;
-  margin-left: auto;
-  margin-right: auto;
+
   margin-top: 94px;
 }
 .page-footer {
@@ -382,6 +379,7 @@ ul {
   padding-left: 0;
   padding-right: 0;
   background-color: #f5f4fa;
+  /* border: 2px solid green; */
 }
 
 .page-footer .container {
